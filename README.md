@@ -16,5 +16,6 @@ options:
 
 1- On Linux
 `python3 pip install -r Requirements.txt`
+
 2- On Windows
 `python pip install -r Requirements.txt`
