@@ -4,19 +4,16 @@ options:
   -h, --help            show this help message and exit
   
   -p PLAINTEXT, --PlainText PLAINTEXT
-  
                         The plain text to be hashed.
-  
+                        
   -a ALGORITHM, --Algorithm ALGORITHM
-  
                         The hashing algorithm ID to be used.
-  
+                        
   -m, --Modules         List all available hashing algorithms along with their IDs.
   
   -b, --Bruteforcing    To enable bruteforcing mode.
   
   -d DICTIONARY, --Dictionary DICTIONARY
-  
                         Provide a wordlist to be used with bruteforcing.
   
   -c HASH, --Hash HASH  Hashed text
