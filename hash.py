@@ -66,6 +66,8 @@ def bruteforcer(dictionary, digest):
         if hash_return(password) == digest:
             print(Fore.GREEN+f"The plaintext {password} corresponds to the hash [{digest}]")
             sys.exit(0)
+    print(Fore+'The corresponding plaintext was not found into the wordlist {}'.format(dictionary))
+
 
 # If the user set the flag `Bruteforcing` it will be equal to True
 if arg.Bruteforcing:
