@@ -1,7 +1,4 @@
-hashlib
 argparse
 pandas
 pyarrow
-os
-sys
 colorama
